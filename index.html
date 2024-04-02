@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 내부스타일 -->
+    <!-- <style>
+        div{
+            color:blue;
+            font-size:25px;
+        }
+    </style> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- <div>내부스타일(Internal Style Sheets)</div> -->
+<!-- <div>외부스타일(External Style)</div> -->
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <div id="header-brand">Likelion Sogang 12th</div>
+        <div class="navigation-menu">
+            <div class="menu-item">About</div>
+            <div class="menu-item">What I Like</div>
+            <div class="menu-item">Contact</div>   
+        </div>
+    </header>
+    
+    <main>
+        <section id="profile-summary">
+            <h1>나를 소개할게요</h1>
+            <h2>최보현</h2>
+        </section>
+
+        <section id="about-me">
+            <article class="simple-profile">
+                <figure class=""profile-figure>
+                    <img id="article-img" src="./images/frontend.png" />
+                    <div class="info-label">Position</div>
+                    <div class="info-value">Front-End</div>
+                </figure>
+            </article>
+
+            <article class="simple-profile">
+                <figure class=""profile-figure>
+                    <img id="article-img" src="./images/ANT.png" />
+                    <div class="info-label">Major</div>
+                    <div class="info-value">Art&Technology</div>
+                </figure>
+            </article>
+
+            <article class="simple-profile">
+                <figure class=""profile-figure>
+                    <img id="article-img" src="./images/mbti.png" />
+                    <div class="info-label">MBTI</div>
+                    <div class="info-value">INTP</div>
+                </figure>
+            </article>
+        </section>
+
+        <section id="favorite">
+            <h2 class="favorites-title">What I Like</h2>
+            <div class="favorite-gallery">
+                <article class="image-block">
+                    <img 
+                        class="favorite-image"
+                        src = "./images/FavorMovie.jpeg"
+                        alt = "영화 노트북 포스터"
+                    />
+
+                    <figcaption class="image-caption">
+                        <div class="caption-title">영화</div>
+                        <div class="caption-subtitle">노트북</div>
+                    </figcaption>
+                </article>
+
+                <article class="image-block">
+                    <img 
+                        class="favorite-image"
+                        src = "./images/FIJIBLUE.jpeg"
+                        alt = "아티스트"
+                    />
+
+                    <figcaption class="image-caption">
+                        <div class="caption-title">아티스트</div>
+                        <div class="caption-subtitle">Fuji Blue</div>
+                    </figcaption>
+                </article>
+
+                <article class="image-block">
+                    <img 
+                        class="favorite-image"
+                        src = "./images/cookie.jpeg"
+                        alt = "취미"
+                    />
+
+                    <figcaption class="image-caption">
+                        <div class="caption-title">취미</div>
+                        <div class="caption-subtitle">Baking</div>
+                    </figcaption>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2 class="footer-heading">Connect with me!</h2>
+        <div class="contact-details">
+            <div class="contact-info">Email: bocurent@gmail.com</div>
+            <p class="copyright">ⓒ Bohyun Choi. All Right Reserved.</p>
+
+            <div class ="social-media-links">
+                <a href="https://www.instagram.com/chlqhgus" target="_blank">
+                    <img class="social-icon" src = "./images/instagram.svg" />
+                </a>
+
+                <a href="https://github.com/chlqhgus" target="_blank">
+                    <img class="social-icon" src = "./images/github.svg" />
+                </a>
+            </div>
+        </div>
+    
+    </footer>
+
+</body>
+</html>
